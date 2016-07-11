@@ -23,7 +23,7 @@ for (key, value) in airports {
 for (airportCode, airportName) in airports {
     print("The abbreviation for \(airportName) is \(airportCode)")
 }
-
+// using tuples are key to iterating over dictionaries!
 
 
 
@@ -66,6 +66,7 @@ let movies = [
     "Fast & Furious": fastAndFuriousFilms,
     "Toy Story": toyStoryFilms,
 ]
+//SAY THIS AS: a Dictionary mapping String keys to Array of String values
 
 for (franchise, titles) in movies {
     print("There are \(titles.count) movies in the \(franchise) series")
